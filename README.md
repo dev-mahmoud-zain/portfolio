@@ -1,16 +1,58 @@
-# React + Vite
+# Mahmoud Zain - MERN Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for my professional portfolio website. This project showcases my journey as a Full-Stack Developer, featuring a clean design and detailed insights into my technical expertise and key projects.
 
-Currently, two official plugins are available:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-mahmoud-zain/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dev-mahmoud-zain)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+201551975456)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 About Me
 
-## React Compiler
+I am a dedicated **MERN Stack Developer** with a passion for building scalable, high-performance applications. I specialize in crafting robust backend systems with **Node.js**, **Express.js**, and **MongoDB**, while also creating dynamic, responsive user interfaces with **React**. My focus is on writing clean, maintainable code and delivering exceptional user experiences.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Technical Arsenal
+- **Frontend:** React.js, HTML5, CSS3, JavaScript (ES6+), Bootstrap
+- **Backend:** Node.js, Express.js, NestJS
+- **Database:** MongoDB (Mongoose)
+- **Tools:** Vite, Git, JWT, Socket.IO, AWS S3, Cloudinary
+- **Animations:** Typed.js, Lottie
 
-## Expanding the ESLint configuration
+## 📁 Project Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Backend Projects
+- **LinkSphere:** A scalable social network backend featuring 2FA, real-time chat, and AWS S3 integration.
+- **NestJS E-Commerce:** A production-ready API with Stripe payments, role-based access control, and modular architecture.
+- **Jovio:** A modern recruitment platform with advanced session management and OTP verification.
+
+### Frontend Projects
+- **Bookmarker App:** An efficient manager for web bookmarks with persistent local storage.
+- **Game Reviews App:** A dynamic React-based application fetching real-time game data via external APIs.
+- **E-Commerce Client:** A responsive shopping interface with optimized state management and smooth interactions.
+
+## 🛠️ Getting Started
+
+To run this portfolio locally, follow these steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/dev-mahmoud-zain/portfolio.git
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## 📬 Contact Me
+
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+
+- **Email:** [mahmoudzain807@gmail.com](mailto:mahmoudzain807@gmail.com)
+- **LinkedIn:** [dev-mahmoud-zain](https://www.linkedin.com/in/dev-mahmoud-zain/)
+- **WhatsApp:** [+20 155 197 5456](https://wa.me/+201551975456)
+
+---
+*Built by Mahmoud Zain*
