@@ -1,0 +1,87 @@
+.contact-me .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lottie-container {
+    order: 1;
+    width: 70%;
+}
+
+
+.contact-me form {
+    width: 100%;
+    order: 2;
+}
+
+.contact-me form h5{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color: var( --subtitle-color);
+}
+.contact-me form input,
+.contact-me form textarea {
+    width: 100%;
+    font-size: 1rem;
+    background-color: var(--border-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    color: var(--text-color);
+}
+
+.contact-me form .warning{
+    border: 1px solid rgb(128, 16, 16);
+    box-shadow: 1px 1px 10px rgba(128, 16, 16, 0.548);
+}
+
+.contact-me form p {
+    color: rgb(128, 16, 16);
+}
+
+.contact-me form textarea {
+    height: 10rem;
+}
+
+.contact-me .btn{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+.success-sent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.success-sent h4{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media (min-width: 780px) {
+    .contact-me .container {
+        flex-direction: row;
+
+    }
+
+
+    .lottie-container {
+        order: 2;
+        width: 40%;
+    }
+
+    .contact-me form {
+        width: 60%;
+
+    }
+
+
+}

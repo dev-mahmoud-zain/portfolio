@@ -1,0 +1,153 @@
+.header {
+    color: var(--title-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+}
+
+.header .phone-menu {
+    display: none;
+}
+
+.header .menu-button {
+    display: none;
+    background-color: var(--bg-header);
+    padding: .5rem;
+    border-radius: 50%;
+    transition: .5s;
+
+}
+
+.header .menu-close {
+    transform: rotate(0deg);
+
+}
+
+.header .menu-open {
+    transform: rotate(90deg);
+}
+
+.header img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.navbar {
+    width: 40%;
+    padding: 1rem 2rem;
+    background-color: var(--bg-header);
+    box-shadow: 1px 1px 20px var(--shadow-color);
+    border-radius: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    transition: .5s;
+    font-weight: bold;
+}
+
+.navbar ul li:hover {
+    color: var(--main-color);
+    transform: scale(1.07);
+}
+
+.header button {
+    background-color: transparent;
+    color: var(--title-color);
+    font-size: 1.5rem;
+    border: none;
+    position: relative;
+}
+
+.theme-button i {
+    position: absolute;
+    top: -1rem;
+    left: -50px;
+}
+
+.theme-button i:not(.active) {
+    opacity: 0;
+    transition: 1s;
+    animation: hideIcon 1s ease;
+}
+
+.theme-button .active {
+    opacity: 1;
+    transition: 1s;
+    animation: showIcon 1s ease;
+}
+
+@keyframes hideIcon {
+    from {
+        transform: rotate(-100deg);
+    }
+    to {
+        transform: rotate(100deg);
+    }
+}
+
+@media (max-width:780px) {
+
+    .navbar {
+        display: none;
+    }
+
+    .header img {
+        display: none;
+    }
+
+    .header .menu-button {
+        display: block;
+    }
+
+    .theme-button i {
+        left: -10px;
+    }
+
+    .header .phone-menu {
+        display: block;
+        position: absolute;
+        left: 0;
+        z-index: 999;
+        top: 0;
+        width: 100%;
+        padding: 2rem;
+        background-color: var(--phone-menu-bg);
+        transition: .5s;
+    }
+
+    .header .phone-menu.hide-menu {
+        top: -120%;
+    }
+
+    .header .phone-menu .close-menu-button {
+        position: absolute;
+        right: 20%;
+        top: 7%;
+        font-size: 1.2rem;
+        cursor:pointer;
+    }
+
+    .header .phone-menu li {
+        margin-bottom: 1rem;
+        font-weight: bold;
+        position: relative;
+        color: var(--title-color);
+    }
+
+    .header .phone-menu .break {
+        display: block;
+        background-color: var(--shadow-color);
+        width: 80%;
+        height: .1rem;
+        position: relative;
+        top: -.3rem;
+    }
+
+}
