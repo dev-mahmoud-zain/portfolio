@@ -1,9 +1,9 @@
 import "./header.css";
 import ThemeButton from "./ThemeButton";
-import Navbar from "./navbar";
+import Navbar from "./Navbar";
 import HeaderActions from "./HeaderActions";
 import PhoneMenu from "./PhoneMenu";
-import {  useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
