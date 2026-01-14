@@ -50,7 +50,7 @@ To run this portfolio locally, follow these steps:
 
 I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
 
-- **Email:** [mahmoudzain807@gmail.com](mailto:mahmoudzain807@gmail.com)
+- **Email:** [dev.mahmoud.zain@gmail.com](mailto:dev.mahmoud.zain@gmail.com)
 - **LinkedIn:** [dev-mahmoud-zain](https://www.linkedin.com/in/dev-mahmoud-zain/)
 - **WhatsApp:** [+20 155 197 5456](https://wa.me/+201551975456)
 

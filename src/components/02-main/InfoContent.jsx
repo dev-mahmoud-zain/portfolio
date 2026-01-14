@@ -13,7 +13,7 @@ export default function InfoContent() {
       loop: true,
       showCursor: true,
       cursorChar: "",
-      startDelay:500,
+      startDelay: 500,
       smartBackspace: true,
     });
     return () => {
@@ -40,6 +40,9 @@ export default function InfoContent() {
         ensure smooth integration between backend services and responsive user
         interfaces.
       </p>
+      <a href="./Mahmoud-Zain-Backend-CV.pdf" download className="btn">
+        Download CV
+      </a>
     </>
   );
 }

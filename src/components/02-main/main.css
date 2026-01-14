@@ -63,6 +63,13 @@
     line-height: 1.7rem;
 }
 
+.main .btn {
+    width: 7rem;
+    height: auto;
+    text-align: center;
+    color: var(--main-color);
+    margin: 2rem 0;
+}
 
 @keyframes blink {
     50% {
@@ -98,5 +105,7 @@
         width: 100%;
         padding: 0;
     }
+
+
 
 }
