@@ -3,7 +3,11 @@ import React, { useEffect, useState } from "react";
 export default function ThemeButton() {
 
   const [isDark, setIsDark] = useState(() => {
-    return localStorage.getItem("theme") === "dark";
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) {
+      return savedTheme === "dark";
+    }
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
   });
 
   function toggleTheme() {

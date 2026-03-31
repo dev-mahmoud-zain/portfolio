@@ -40,9 +40,11 @@ export default function InfoContent() {
         ensure smooth integration between backend services and responsive user
         interfaces.
       </p>
-      <a href="./Mahmoud-Zain-Backend-CV.pdf" download className="btn">
-        Download CV
+
+      <a href="https://drive.google.com/file/d/15x_aRPMZhRyvONeN62QQvivL7FkaYtkr/view" target="_blank" className="btn">
+        Preview My CV
       </a>
+
     </>
   );
 }

@@ -1,4 +1,20 @@
 export const backendProjects = [
+
+    // =============================== Secure Access ===============================
+  {
+    name: "Secure Access",
+    image: "./projects/Secure_Access.png",
+    shortDescription:
+      "A secure, enterprise-ready backend for event, attendee, and gate management — built for real-world deployment.",
+    description:
+      "Secure-Access is a production-ready backend platform built for secure event and attendee management. It provides multi-layer authentication, 2FA, event lifecycle control, bulk attendee imports, automated QR generation, and device-bound gate validation. Developed with TypeScript, NestJS, and MongoDB, the system follows clean architecture principles, offering high scalability, strong security practices, and real-world readiness for enterprise use and commercial deployment.",
+    links: {
+      documentation: "#", // Replace with actual link to the Overview file
+    },
+    status: "done",
+  },
+
+
   // =============================== LinkSphere ===============================
   {
     name: "LinkSphere",
@@ -68,8 +84,6 @@ export const backendProjects = [
   }
 ];
 
-
-
 export const frontendProjects = [
   {
     name: "Bookmarker App",
@@ -114,7 +128,6 @@ export const frontendProjects = [
   }
 
 ];
-
 
 export const fullstackProjects = [
   // =============================== Marketa  ===============================

@@ -10,10 +10,13 @@ export default function ProjectsList({ activeButton }) {
     setShowMore(updated);
   }
 
+
+
+
+
+
   return (
     <div className="projects-list">
-
-
 
 
       {(activeButton === "all" || activeButton === "backend") && backendProjects.map((project, index) => {
@@ -37,24 +40,39 @@ export default function ProjectsList({ activeButton }) {
 
               <div className="card-footer">
                 <div>
-                  <a
-                    href={project.links.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="View project source code on GitHub"
-                    aria-label="Open the GitHub repository for this project"
-                  >
-                    <i className="fa-brands fa-github"></i>
-                  </a>
-                  <a
-                    href={project.links.documentation}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="View project documentation"
-                    aria-label="Open the project documentation"
-                  >
-                    <i className="fa-regular fa-file"></i>
-                  </a>
+                  {project.links.github && (
+                    <a
+                      href={project.links.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="View project source code on GitHub"
+                      aria-label="Open the GitHub repository for this project"
+                    >
+                      <i className="fa-brands fa-github"></i>
+                    </a>
+                  )}
+                  {project.links.documentation && (
+                    <a
+                      href={project.links.documentation}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="View project documentation"
+                      aria-label="Open the project documentation"
+                    >
+                      <i className="fa-regular fa-file"></i>
+                    </a>
+                  )}
+                  {project.links.live && (
+                    <a
+                      href={project.links.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      title="View live project"
+                      aria-label="Open the project"
+                    >
+                      <i className="fa-solid fa-link"></i>
+                    </a>
+                  )}
                 </div>
 
                 <button onClick={() => toggleShowMore(index)}>
