@@ -9,7 +9,7 @@ export const backendProjects = [
     description:
       "Secure-Access is a production-ready backend platform built for secure event and attendee management. It provides multi-layer authentication, 2FA, event lifecycle control, bulk attendee imports, automated QR generation, and device-bound gate validation. Developed with TypeScript, NestJS, and MongoDB, the system follows clean architecture principles, offering high scalability, strong security practices, and real-world readiness for enterprise use and commercial deployment.",
     links: {
-      documentation: "#", // Replace with actual link to the Overview file
+      documentation: "https://drive.google.com/file/d/1msFiNBmKM6udFCo2OuY_fOqIGqOrU9wh/view?usp=sharing",
     },
     status: "done",
   },

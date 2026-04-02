@@ -20,6 +20,7 @@ I am a dedicated **MERN Stack Developer** with a passion for building scalable, 
 ## 📁 Project Highlights
 
 ### Backend Projects
+- **Secure Access:** A secure, enterprise-ready backend for event, attendee, and gate management — built for real-world deployment.
 - **LinkSphere:** A scalable social network backend featuring 2FA, real-time chat, and AWS S3 integration.
 - **NestJS E-Commerce:** A production-ready API with Stripe payments, role-based access control, and modular architecture.
 - **Jovio:** A modern recruitment platform with advanced session management and OTP verification.

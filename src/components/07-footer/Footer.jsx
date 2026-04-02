@@ -11,6 +11,14 @@ export default function Footer() {
         <a href="mailto:dev.mahmoud.zain@gmail.com">
           dev.mahmoud.zain@gmail.com
         </a>
+
+      </p>
+
+      <p>
+        Phone:{" "}
+        <a href="tel:+201551975456">
+          +201551975456
+        </a>
       </p>
 
       <div className="social-icons">

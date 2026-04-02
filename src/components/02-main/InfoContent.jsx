@@ -6,7 +6,7 @@ export default function InfoContent() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Node Js", "React Js"],
+      strings: ["Express Js", "Nest Js"],
       typeSpeed: 80,
       backSpeed: 40,
       backDelay: 2000,
@@ -29,16 +29,18 @@ export default function InfoContent() {
       </h1>
 
       <h2>
-        MERN Stack Developer | <span className="typed-text" ref={el} />{" "}
+        Backend Developer | <span className="typed-text" ref={el} />{" "}  
       </h2>
 
+
+
       <p className="info">
-        With expertise in Node.js, Express.js, and MongoDB, I specialize in
-        building clean and scalable backend systems and well-structured REST
-        APIs. I focus on application logic, authentication, and database design
-        to deliver reliable solutions. With a strong foundation in React, I
-        ensure smooth integration between backend services and responsive user
-        interfaces.
+        Specialized in building scalable backend systems using Node.js, Express.js, Nest Js, and MongoDB.
+        I focus on designing clean architecture, secure authentication systems, and efficient database structures
+        to deliver reliable and production-ready APIs.
+
+        With solid experience in React, I ensure seamless integration between backend services
+        and modern, responsive user interfaces when needed.
       </p>
 
       <a href="https://drive.google.com/file/d/15x_aRPMZhRyvONeN62QQvivL7FkaYtkr/view" target="_blank" className="btn">

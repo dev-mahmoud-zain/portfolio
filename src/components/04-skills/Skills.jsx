@@ -10,6 +10,7 @@ export default function Skills() {
             <h3>Backend</h3>
             <h4>Node.js</h4>
             <h4>Express.js</h4>
+            <h4>Nest Js</h4>
             <h4>MongoDB</h4>
             <h4>RESTful APIs</h4>
             <h4>Authentication & Authorization (JWT, Roles)</h4>
