@@ -1,6 +1,6 @@
 export const backendProjects = [
 
-    // =============================== Secure Access ===============================
+  // =============================== Secure Access ===============================
   {
     name: "Secure Access",
     image: "./projects/Secure_Access.png",
@@ -29,7 +29,6 @@ export const backendProjects = [
       github: "https://github.com/dev-mahmoud-zain/LinkSphere",
     },
     status: "done",
-
   },
 
   // =============================== Marketa ===============================
@@ -46,7 +45,6 @@ export const backendProjects = [
       github: "https://github.com/dev-mahmoud-zain/E-Commerce",
     },
     status: "done",
-
   },
 
   // =============================== Jovio ===============================
@@ -63,7 +61,6 @@ export const backendProjects = [
       github: "https://github.com/dev-mahmoud-zain/Jovio",
     },
     status: "done",
-
   },
 
   // =============================== Travello ===============================
@@ -80,7 +77,6 @@ export const backendProjects = [
       github: "https://github.com/dev-mahmoud-zain/Travel-System",
     },
     status: "done",
-
   }
 ];
 

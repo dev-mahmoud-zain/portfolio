@@ -27,8 +27,8 @@ export default function ProjectsList({ activeButton }) {
           >
             <div className="inner-card">
               {project.status === "soon" && <div className="status-label">Coming Soon</div>}
-              <img src={project.image} alt={project.name} />
-              <h4 className="project-title">{project.name}</h4>
+              <img src={project.image} alt={project.name + " Backend Project"} />
+              <h3 className="project-title">{project.name}</h3>
 
               <p className={`description short ${showMore[index] && "hide"}`}>
                 {project.shortDescription}
@@ -99,8 +99,8 @@ export default function ProjectsList({ activeButton }) {
           >
             <div className="inner-card">
               {project.status === "soon" && <div className="status-label">Coming Soon</div>}
-              <img src={project.image} alt={project.name} />
-              <h4 className="project-title">{project.name}</h4>
+              <img src={project.image} alt={project.name + " Frontend Project"} />
+              <h3 className="project-title">{project.name}</h3>
 
               <p className={`description short ${showMore[index] && "hide"}`}>
                 {project.shortDescription}
@@ -148,7 +148,6 @@ export default function ProjectsList({ activeButton }) {
 
       {/* ========================================================== */}
 
-
       {(activeButton === "all" || activeButton === "full-stack") && fullstackProjects.map((project, index) => {
         index = index + 200;
         return (
@@ -158,8 +157,8 @@ export default function ProjectsList({ activeButton }) {
           >
             <div className="inner-card">
               {project.status === "soon" && <div className="status-label">Coming Soon</div>}
-              <img src={project.image} alt={project.name} />
-              <h4 className="project-title">{project.name}</h4>
+              <img src={project.image} alt={project.name + " Fullstack Project"} />
+              <h3 className="project-title">{project.name}</h3>
 
               <p className={`description short ${showMore[index] && "hide"}`}>
                 {project.shortDescription}

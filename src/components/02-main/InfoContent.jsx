@@ -23,14 +23,14 @@ export default function InfoContent() {
 
   return (
     <>
-      <h1>
+      <h2>
         Hello ,<br />
         My Name Is <span className="my-name">Mahmoud Zain</span>
-      </h1>
-
-      <h2>
-        Backend Developer | <span className="typed-text" ref={el} />{" "}  
       </h2>
+
+      <h1>
+        Backend Developer | <span className="typed-text" ref={el} />{" "}  
+      </h1>
 
 
 
