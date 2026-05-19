@@ -171,12 +171,6 @@
 
     .projects .container {
         width: 100%;
-        display: flex;
-    }
-
-
-    .projects button {
-        width: 12rem;
     }
 
 

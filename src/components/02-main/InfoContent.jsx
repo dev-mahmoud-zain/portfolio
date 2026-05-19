@@ -35,12 +35,12 @@ export default function InfoContent() {
 
 
       <p className="info">
-        Specialized in building scalable backend systems using Node.js, Express.js, Nest Js, and MongoDB.
-        I focus on designing clean architecture, secure authentication systems, and efficient database structures
-        to deliver reliable and production-ready APIs.
+        Specialized in building scalable, secure, and high-performance backend systems using Node.js, Express.js, Nest.js, and MongoDB.
+        I focus on clean architecture, robust authentication models, and efficient database designs to deliver reliable, production-ready APIs.
+      </p>
 
-        With solid experience in React, I ensure seamless integration between backend services
-        and modern, responsive user interfaces when needed.
+      <p className="info">
+        While I possess a solid background in front-end development (including React, HTML5, and CSS3) that allows me to ensure seamless integration and collaborate effectively, my absolute preference and focus are dedicated to backend engineering. I thrive on solving complex server-side challenges and designing the core logic that powers digital platforms.
       </p>
 
       <a href="https://drive.google.com/file/d/15x_aRPMZhRyvONeN62QQvivL7FkaYtkr/view" target="_blank" className="btn">

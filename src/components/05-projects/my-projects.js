@@ -14,6 +14,22 @@ export const backendProjects = [
     status: "done",
   },
 
+  // =============================== Police department case management system ===============================
+  {
+    name: "Police department management system",
+    image: "./projects/Police-department.png",
+    shortDescription:
+      "Secure internal case management platform for police departments with defendant tracking, case workflows, and role-based access control.",
+    description:
+      "Secure and scalable backend system built with NestJS, TypeScript, and PostgreSQL for managing defendants, legal cases, movement records, and case status workflows inside police departments. The platform provides role-based access control to ensure secure multi-user operations across different departments and administrative roles. It includes advanced filtering, structured record retrieval, audit-oriented workflows, and relational database modeling optimized for operational reliability and long-term maintainability. The system follows modular architecture principles with clean service separation, DTO validation, secure authentication flows, and extensible API design, making it suitable for enterprise-grade internal government systems."
+    ,
+    links: {
+      documentation:
+        "",
+      github: "",
+    },
+    status: "done",
+  },
 
   // =============================== LinkSphere ===============================
   {
@@ -77,67 +93,5 @@ export const backendProjects = [
       github: "https://github.com/dev-mahmoud-zain/Travel-System",
     },
     status: "done",
-  }
-];
-
-export const frontendProjects = [
-  {
-    name: "Bookmarker App",
-    image: "./projects/Bookmarker.png",
-    shortDescription:
-      "Simple and efficient bookmark manager with CRUD operations and local storage support.",
-    description:
-      "Bookmarker App is a front-end JavaScript project developed during training at Route Training Center. The application allows users to save, manage, and organize website bookmarks using full CRUD operations. Bookmarks are persisted using the browser's localStorage, ensuring data is retained across sessions. The project includes URL validation using regular expressions to prevent invalid entries, and demonstrates solid understanding of DOM manipulation, event handling, and client-side data persistence using vanilla JavaScript with HTML, CSS, and Bootstrap.",
-    links: {
-      github: "https://github.com/dev-mahmoud-zain/Bookmarker",
-      live: "https://adham-zain.github.io/Bookmarker",
-    },
-    status: "done",
-  },
-
-  {
-    name: "Game Reviews App",
-    image: "./projects/GameReviews.png",
-    shortDescription:
-      "Dynamic web app that fetches and displays real-time game reviews using an external API.",
-    description:
-      "Game Reviews App is a front-end JavaScript project developed as a final assignment at Route Training Center before transitioning to React. The application consumes a public games API to fetch and display up-to-date game reviews dynamically. It demonstrates practical experience with asynchronous JavaScript, API integration using fetch, and handling JSON responses. Built with HTML, CSS, Bootstrap, and vanilla JavaScript, the project strengthened core concepts such as async programming, dynamic UI rendering, and working with external data sources in real-world scenarios.",
-    links: {
-      github: "https://github.com/dev-mahmoud-zain/Game-Reviews",
-      live: "https://adham-zain.github.io/Game-Reviews/",
-    },
-    status: "done",
-  },
-
-  {
-    name: "E-Commerce App",
-    image: "./projects/E-commerce-front.png",
-    shortDescription:
-      "Modern and responsive e-commerce front-end with smooth user interactions and cart management.",
-    description:
-      "E-Commerce App is a front-end web application that delivers a complete online shopping experience with a strong focus on performance and usability. Users can browse products, view details, add items to their cart, and manage orders through a clean and responsive interface optimized for different screen sizes. The project emphasizes smooth UI interactions, efficient state handling on the client side, and fast rendering. Built using modern front-end technologies, it reflects solid understanding of user experience principles and professional e-commerce interface design.",
-    links: {
-      github: "https://github.com/your-username/ecommerce-app",
-      live: "https://e-commerce-16465.web.app/"
-    },
-    status: "done",
-  }
-
-];
-
-export const fullstackProjects = [
-  // =============================== Marketa  ===============================
-  {
-    name: "Marketa",
-    image: "./projects/E-Commerce.png",
-    shortDescription:
-      "Fullstack e-commerce platform currently under development (Coming Soon).",
-    description:
-      "Marketa is being developed as a fullstack e-commerce platform, combining a robust NestJS & MongoDB backend with a modern frontend interface. The project will feature secure authentication, role-based access control, product & user management, cart and wishlist functionality, order processing, and integrated payment solutions. Frontend development is in progress, aiming to deliver a responsive, user-friendly, and interactive shopping experience. Stay tuned—this fullstack project will showcase end-to-end capabilities once complete.",
-    links: {
-      documentation: "https://documenter.getpostman.com/view/40056651/2sB3WjzPTJ",
-      github: "https://github.com/dev-mahmoud-zain/Marketa",
-    },
-    status: "soon",
   }
 ];
